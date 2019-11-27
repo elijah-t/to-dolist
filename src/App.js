@@ -6,14 +6,7 @@ import Form from './Form.js'
 class App extends Component {
     
     state = {
-        tasks: [
-            {
-                task: "Create a to-do list app",
-            },
-            {
-                task: "And so on and so forth"
-            },
-        ],
+        tasks: [],
     }
 
     handleSubmit = task => {
